@@ -27,11 +27,6 @@ SUMMARY_MIN = 8 # use dependent
 API_URL = 'https://zfgp45ih7i.execute-api.eu-west-1.amazonaws.com/sandbox/api/search'
 API_KEY = sys.argv[1]
 
-# NLTK resources
-nltk.download('punkt')
-nltk.download('maxent_ne_chunker_tab')
-nltk.download('words')
-
 
 ### functions
 
