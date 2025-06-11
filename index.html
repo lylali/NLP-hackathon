@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NewsViews - Uncover the Global Narrative</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script> <!-- Or use your preferred icon library -->
+</head>
+<body>
+
+    <div class="background-glow"></div>
+
+    <header>
+        <div class="logo">NewsViews</div>
+        <nav>
+            <a href="#">How It Works</a>
+            <a href="#">About</a>
+            <a href="#">Team</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero-section">
+            <h1>See The World's News,</h1>
+            <h2>Not Just Your Corner of It.</h2>
+            <p class="subtitle">Enter a news topic to see how different countries are reporting on the same event. Our AI analyses sentiment, bias, and narrative divergence.</p>
+            
+            <form id="search-form" class="search-container">
+                <input type="text" id="topic-input" placeholder="e.g., 'International Climate Summit'" autocomplete="off">
+                <button type="submit">Analyse</button>
+            </form>
+        </section>
+
+        <section id="results-dashboard" class="results-dashboard hidden">
+            
+            <!-- Loader will be shown here -->
+            <div id="loader" class="loader-container">
+                <div class="loader-ring"></div>
+                <p>Analysing global narratives... This may take a moment.</p>
+            </div>
+
+            <!-- The actual results content -->
+            <div id="results-content" class="hidden">
+                <div class="analysis-summary">
+                    <div class="summary-card">
+                        <h3><i class="fas fa-globe-americas"></i> Global Consensus</h3>
+                        <p id="global-consensus">A general agreement that the summit was a positive step, with most nations committing to new environmental targets.</p>
+                    </div>
+                    <div class="summary-card">
+                        <h3><i class="fas fa-code-branch"></i> Key Divergences</h3>
+                        <p id="key-divergences">Reporting from developing nations focuses on the lack of immediate financial aid, while Western media highlights policy commitments.</p>
+                    </div>
+                </div>
+
+                <div class="map-and-cards">
+                    <div class="map-container">
+                        <!-- Simplified World Map SVG - You can find more detailed ones online -->
+                        <!-- The JS will make this interactive -->
+                        <svg id="world-map" viewBox="0 0 1000 500">
+                            <!-- Paths for countries will be added here or kept in a separate file -->
+                            <!-- Example path for interactivity demonstration -->
+                            <path id="map-usa" data-country="USA" d="..."/>
+                            <path id="map-gbr" data-country="GBR" d="..."/>
+                            <path id="map-chn" data-country="CHN" d="..."/>
+                            <path id="map-ind" data-country="IND" d="..."/>
+                            <path id="map-jpn" data-country="JPN" d="..."/>
+                            <!-- For a real hackathon, you'd populate this with actual SVG paths for major countries -->
+                            <!-- Placeholder visual -->
+                            <circle cx="250" cy="150" r="20" data-country="USA" fill="#3498db" /><text x="250" y="150" text-anchor="middle" fill="white" dy=".3em">US</text>
+                            <circle cx="500" cy="130" r="15" data-country="GBR" fill="#3498db" /><text x="500" y="130" text-anchor="middle" fill="white" dy=".3em">UK</text>
+                            <circle cx="780" cy="200" r="25" data-country="CHN" fill="#3498db" /><text x="780" y="200" text-anchor="middle" fill="white" dy=".3em">CN</text>
+                            <circle cx="700" cy="250" r="20" data-country="IND" fill="#3498db" /><text x="700" y="250" text-anchor="middle" fill="white" dy=".3em">IN</text>
+                             <circle cx="850" cy="160" r="15" data-country="JPN" fill="#3498db" /><text x="850" y="160" text-anchor="middle" fill="white" dy=".3em">JP</text>
+                        </svg>
+                    </div>
+                    <div id="news-cards-container" class="news-cards-container">
+                        <!-- News cards will be dynamically inserted here by JavaScript -->
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+<div id="comparison-modal-overlay" class="modal-overlay hidden">
+    <div class="modal-content">
+        <button id="modal-close-btn" class="modal-close-btn">×</button>
+        <h2>Narrative Comparison</h2>
+        <div class="comparison-grid">
+            <div id="comparison-pane-1" class="comparison-pane">
+                <!-- Content for first article will be injected here -->
+            </div>
+            <div id="comparison-pane-2" class="comparison-pane">
+                <!-- Content for second article will be injected here -->
+            </div>
+        </div>
+    </div>
+</div>
+    
+    <footer>
+        <p>Built with ❤️ by Team 8 for the Cardiff University NLP Hackathon</p>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/58a396e949.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
