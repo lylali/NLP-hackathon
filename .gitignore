@@ -1,0 +1,45 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+env/
+venv/
+ENV/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VSCode settings
+.vscode/
+
+# MacOS metadata
+.DS_Store
+
+# Output files (optional: comment out if you want to track them)
+data/outputs/csv/
+data/outputs/graphs/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# Python dependency files
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Pytest cache
+.pytest_cache/
+
+# MyPy cache
+.mypy_cache/
+
+# Ignore system files
+Thumbs.db
+ehthumbs.db
+
+# Configuration overrides (optional)
+config.yaml
