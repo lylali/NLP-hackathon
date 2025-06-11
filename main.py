@@ -22,11 +22,11 @@ T0 = time.time()
 print(f"[Elapsed time: {time.time()-T0:.3f}s]")
 
 # BART hyperparameters
-MODEL = 'sshleifer/distilbart-cnn-12-6'
+SUMMARY_MODEL = 'sshleifer/distilbart-cnn-12-6'
 MAX_TOKENS = 1024 # model dependent
 BATCH_SIZE = 1 # hardware dependent
-SUMMARY_MAX = 32 # use dependent
-SUMMARY_MIN = 8 # use dependent
+SUMMARY_MAX = 512 # use dependent
+SUMMARY_MIN = 32 # use dependent
 
 # ASIMILATE API
 API_URL = 'https://zfgp45ih7i.execute-api.eu-west-1.amazonaws.com/sandbox/api/search'
@@ -153,17 +153,25 @@ for t in query_text_en:
 print(f"[Elapsed time: {time.time()-T0:.3f}s]")
 
 # perform analysis
+summary_tokenizer = AutoTokenizer.from_pretrained(SUMMARY_MODEL)
+summary_model = AutoModelForSeq2SeqLM.from_pretrained(SUMMARY_MODEL).to('cuda' if torch.cuda.is_available() else 'cpu')
 emotion_classifier = pipeline('text-classification', model='bhadresh-savani/bert-base-uncased-emotion')
-query_text_en_emotion = list(map(lambda t: emotion_classifier(t[:512]), query_text_en))
+query_text_en_emotion = list(map(emotion_classifier, map(lambda t: summarize_txt(t, summary_tokenizer, summary_model), query_text_en)))
 print(query_text_en_emotion)
 print(f"[Elapsed time: {time.time()-T0:.3f}s]")
 
+# plot analysis
+fig, axis = plt.subplots(nrows=len(query_text_en_emotion)//5, ncols=5, figsize=(20, 20))
+axis_flat = axis.ravel()
 emotion_images = load_pngs_to_numpy_list('assets')
-for data, url in zip(query_text_en_emotion, query_urls):
+for ax, data, url in zip(axis_flat, query_text_en_emotion, query_urls):
 	source = url.split('/')[2]
 	emotion = data[0]['label']
 	score = data[0]['score']
-	plt.imshow(emotion_images[emotion], alpha=score)
-	plt.text(10, 10, f"{source}\n\"{query}\" {emotion}: {score*100:.2f}%", c='r')
-	plt.show()
+	ax.imshow(emotion_images[emotion], alpha=score)
+	ax.text(10, 30, f"{source}\n\"{query}\" {emotion}: {score*100:.2f}%", c='r')
+	ax.set_xticks([],[])
+	ax.set_yticks([],[])
 print(f"[Elapsed time: {time.time()-T0:.3f}s]")
+plt.tight_layout()
+plt.show()
