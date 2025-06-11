@@ -1,0 +1,162 @@
+content,country,cleaned_text,language,entities,sentiment_label,sentiment_score
+"Los Angeles riots, is this a ""civil war"" of several United States?
+",China,"Los Angeles riots, is this a ""civil war"" of several United States?",en,"['Los Angeles', 'United States']",NEGATIVE,0.9961302280426025
+"
+",China,,unknown,[],POSITIVE,0.7481211423873901
+"Text/Observer Network columnist Yixian
+",China,Text/Observer Network columnist Yixian,en,[],POSITIVE,0.5773141384124756
+"
+",China,,unknown,[],POSITIVE,0.7481211423873901
+"In the early morning of June 6, several industrial parks and family communities in the suburbs of Los Angeles were simultaneously banged on doors and shouted. The U.S. Immigration and Customs Enforcement (ICE) launched a rare multi-point raid, arresting dozens of immigrants who were ""suspected of illegal residence or criminal records."" As usual, the law enforcement video quickly appeared on social media, but this time, it ignited unexpected anger.
+",China,"In the early morning of June 6, several industrial parks and family communities in the suburbs of Los Angeles were simultaneously banged on doors and shouted. The U.S. Immigration and Customs Enforcement (ICE) launched a rare multi-point raid, arresting dozens of immigrants who were ""suspected of illegal residence or criminal records."" As usual, the law enforcement video quickly appeared on social media, but this time, it ignited unexpected anger.",en,"['The U.S. Immigration and Customs Enforcement', 'Los Angeles']",NEGATIVE,0.9105098247528076
+"
+",China,,unknown,[],POSITIVE,0.7481211423873901
+"Within 48 hours, a large number of masked protesters gathered in Chinatown, Compton and 101 Freeway, confronted police officers, held high the Mexican flag, and threw Molotov cocktails. On one side, the National Guard entered the streets with live ammunition, and on the other side, the governor publicly condemned the federal government's ""illegal overreach."" The conflict quickly went beyond the immigration issue and evolved into a collective questioning of legitimacy, identity, and political boundaries.
+",China,"Within 48 hours, a large number of masked protesters gathered in Chinatown, Compton and 101 Freeway, confronted police officers, held high the Mexican flag, and threw Molotov cocktails. On one side, the National Guard entered the streets with live ammunition, and on the other side, the governor publicly condemned the federal government's ""illegal overreach."" The conflict quickly went beyond the immigration issue and evolved into a collective questioning of legitimacy, identity, and political boundaries.",en,"['Compton', '101 Freeway', 'the National Guard']",POSITIVE,0.9641334414482117
+"
+",China,,unknown,[],POSITIVE,0.7481211423873901
+"The street riots burning with bullets and anger triggered an open confrontation about ""who has the right to interpret order."" The federal government, local governments, and immigrant groups are engaged in a burning collision on the cracks of the system over legitimate violence, belonging rights, and political sovereignty.
+",China,"The street riots burning with bullets and anger triggered an open confrontation about ""who has the right to interpret order."" The federal government, local governments, and immigrant groups are engaged in a burning collision on the cracks of the system over legitimate violence, belonging rights, and political sovereignty.",en,[],NEGATIVE,0.8972124457359314
+"
+",China,,unknown,[],POSITIVE,0.7481211423873901
+"Federal and state: Who crossed the line?
+",China,Federal and state: Who crossed the line?,en,[],NEGATIVE,0.9970453381538391
+"
+",China,,unknown,[],POSITIVE,0.7481211423873901
+"Late at night on June 7, heavy footsteps sounded on the streets of Los Angeles, which had not yet subsided. The Trump administration announced that it would mobilize 2,000 California National Guard troops to directly enter multiple hotspots of demonstrations in Los Angeles on the grounds of ""restoring order.""
+",China,"Late at night on June 7, heavy footsteps sounded on the streets of Los Angeles, which had not yet subsided. The Trump administration announced that it would mobilize 2,000 California National Guard troops to directly enter multiple hotspots of demonstrations in Los Angeles on the grounds of ""restoring order.""",en,"['Los Angeles', 'Trump', 'California National Guard']",NEGATIVE,0.9796258807182312
+"
+",China,,unknown,[],POSITIVE,0.7481211423873901
+"Unlike the usual procedures, this decision bypassed the consent of Governor Gavin Newsom and cut into local jurisdiction in an almost ""military"" way. Prior to this, California had clearly ordered not to cooperate with ICE's large-scale law enforcement, and this forced intervention undoubtedly pushed an immigration law enforcement storm to the forefront of the confrontation between the constitutional structure of the federal and state governments.
+",China,"Unlike the usual procedures, this decision bypassed the consent of Governor Gavin Newsom and cut into local jurisdiction in an almost ""military"" way. Prior to this, California had clearly ordered not to cooperate with ICE's large-scale law enforcement, and this forced intervention undoubtedly pushed an immigration law enforcement storm to the forefront of the confrontation between the constitutional structure of the federal and state governments.",en,"['ICE', 'Gavin Newsom', 'California']",POSITIVE,0.9693505167961121
+"
+",China,,unknown,[],POSITIVE,0.7481211423873901
+"""This is an illegal political provocation."" Newsom responded strongly, making it clear that the deployment was unauthorized and had not been communicated with the state government. He asked the Department of Defense to ""immediately withdraw the order"" and warned that the federal government was ""deliberately creating a crisis."" Los Angeles Mayor Beth also called it a ""political show that overwhelms local authority"", emphasizing that the local police are fully capable of dealing with the situation and that there is no need for federal force to intervene.
+",China,"""This is an illegal political provocation."" Newsom responded strongly, making it clear that the deployment was unauthorized and had not been communicated with the state government. He asked the Department of Defense to ""immediately withdraw the order"" and warned that the federal government was ""deliberately creating a crisis."" Los Angeles Mayor Beth also called it a ""political show that overwhelms local authority"", emphasizing that the local police are fully capable of dealing with the situation and that there is no need for federal force to intervene.",en,"['Beth', 'Los Angeles', 'the Department of Defense']",NEGATIVE,0.9989162683486938
+"
+",China,,unknown,[],POSITIVE,0.7481211423873901
+"Trump's action is based on Section 12406 of Title 10 of the United States Code, which gives the president the power to directly call on the state National Guard when ""open riots hinder the implementation of federal law"", but usually must be negotiated with the state government.
+",China,"Trump's action is based on Section 12406 of Title 10 of the United States Code, which gives the president the power to directly call on the state National Guard when ""open riots hinder the implementation of federal law"", but usually must be negotiated with the state government.",en,"['National Guard', 'Trump']",NEGATIVE,0.9287927150726318
+"
+",China,,unknown,[],POSITIVE,0.7481211423873901
+"This time, it is the first time since 1960 that a president has used the state guard to interfere in state affairs without the governor's permission. It marks a dangerous political signal: in the context of increasingly intensified political divisions, the understanding of ""order"", ""justice"" and ""legitimacy"" between the federal and local governments in the United States no longer shares the same map of constitutional language.
+",China,"This time, it is the first time since 1960 that a president has used the state guard to interfere in state affairs without the governor's permission. It marks a dangerous political signal: in the context of increasingly intensified political divisions, the understanding of ""order"", ""justice"" and ""legitimacy"" between the federal and local governments in the United States no longer shares the same map of constitutional language.",en,['the United States'],NEGATIVE,0.9643749594688416
+"
+",China,,unknown,[],POSITIVE,0.7481211423873901
+"California has officially become a ""sanctuary state"" since 2017. According to SB 54, local law enforcement agencies are not allowed to assist federal arrests due to immigration status unless it involves serious violent crimes. In reality, the local government of California has long been in conflict with ICE. ICE frequently issues ""wanted notices"" accusing local police of releasing illegal immigrants and obstructing law enforcement. This action is a concentrated attempt to ""correct"" after years of stalemate.
+",China,"California has officially become a ""sanctuary state"" since 2017. According to SB 54, local law enforcement agencies are not allowed to assist federal arrests due to immigration status unless it involves serious violent crimes. In reality, the local government of California has long been in conflict with ICE. ICE frequently issues ""wanted notices"" accusing local police of releasing illegal immigrants and obstructing law enforcement. This action is a concentrated attempt to ""correct"" after years of stalemate.",en,"['SB 54', 'California']",NEGATIVE,0.9875891804695129
+"
+",China,,unknown,[],POSITIVE,0.7481211423873901
+"But the question is not whether this law enforcement is ""necessary"", but whether it still has a ""consensus on legitimacy"".
+",China,"But the question is not whether this law enforcement is ""necessary"", but whether it still has a ""consensus on legitimacy"".",en,[],NEGATIVE,0.9823454022407532
+"
+",China,,unknown,[],POSITIVE,0.7481211423873901
+"When the federal government put state violence into the armored vehicles of the National Guard and rolled over the border line that the state government had publicly opposed - this is not only a breakdown of legal procedures, but also a collapse of political trust. It has shaken the constitutional stability of the United States and turned the system of ""decentralization and cooperation"" into the logic of power of ""obey or suppress"".
+",China,"When the federal government put state violence into the armored vehicles of the National Guard and rolled over the border line that the state government had publicly opposed - this is not only a breakdown of legal procedures, but also a collapse of political trust. It has shaken the constitutional stability of the United States and turned the system of ""decentralization and cooperation"" into the logic of power of ""obey or suppress"".",en,"['the United States', 'the National Guard']",NEGATIVE,0.9968421459197998
+"
+",China,,unknown,[],POSITIVE,0.7481211423873901
+"So we see that there are not only immigrant protesters on the streets, but also ""civilians"" without badges, masked people with unclear camps, and law students holding loudspeakers. They may not be clear about the tenth article of the constitutional amendment, but they clearly feel that law enforcement no longer represents rules, but has become an extension of a certain position.
+",China,"So we see that there are not only immigrant protesters on the streets, but also ""civilians"" without badges, masked people with unclear camps, and law students holding loudspeakers. They may not be clear about the tenth article of the constitutional amendment, but they clearly feel that law enforcement no longer represents rules, but has become an extension of a certain position.",en,[],NEGATIVE,0.9945652484893799
+"
+",China,,unknown,[],POSITIVE,0.7481211423873901
+"Legitimate violence should be the boundary of maintaining public order; but when different power subjects have fundamental differences in their understanding of ""legitimacy"", the boundary of violence is no longer clear. This night battle with police lights and flames forced out a long-ignored question: in a national structure that cannot be negotiated, violence is always the first to cross the line.
+",China,"Legitimate violence should be the boundary of maintaining public order; but when different power subjects have fundamental differences in their understanding of ""legitimacy"", the boundary of violence is no longer clear. This night battle with police lights and flames forced out a long-ignored question: in a national structure that cannot be negotiated, violence is always the first to cross the line.",en,[],NEGATIVE,0.9859639406204224
+"
+",China,,unknown,[],POSITIVE,0.7481211423873901
+"Immigrants: Who are we?
+",China,Immigrants: Who are we?,en,[],NEGATIVE,0.9956552982330322
+"
+",China,,unknown,[],POSITIVE,0.7481211423873901
+"If ICE's actions are an institutional law enforcement, then the protests that followed are more like an emotional street declaration. It came quickly and chaotically, but it was full of symbolic power: masked young protesters, holding high the Mexican flag, burning debris, and waving ""Kill ICE"" signs when blocking the 101 Freeway. These scenes are not just immigrant rights marches, but a deep expression of ""identity"".
+",China,"If ICE's actions are an institutional law enforcement, then the protests that followed are more like an emotional street declaration. It came quickly and chaotically, but it was full of symbolic power: masked young protesters, holding high the Mexican flag, burning debris, and waving ""Kill ICE"" signs when blocking the 101 Freeway. These scenes are not just immigrant rights marches, but a deep expression of ""identity"".",en,[],POSITIVE,0.9932336211204529
+"
+",China,,unknown,[],POSITIVE,0.7481211423873901
+"Click to view larger image
+",China,Click to view larger image,en,[],POSITIVE,0.9982388019561768
+"
+",China,,unknown,[],POSITIVE,0.7481211423873901
+"Video screenshot of the protest scene in Los Angeles, USA
+",China,"Video screenshot of the protest scene in Los Angeles, USA",en,"['Los Angeles', 'USA']",NEGATIVE,0.690354585647583
+"
+",China,,unknown,[],POSITIVE,0.7481211423873901
+"The most controversial picture is the masked man holding high the Mexican flag, standing in front of the confrontation line of the National Guard. He became the ""perfect demonstration object"" in the conservative media's mouth-an ""non-my race"" who does not wear an American logo, refuses to reveal his identity, and opposes federal authority. But what he expressed was really political rebellion, or another cry for survival under extreme marginalization?
+",China,"The most controversial picture is the masked man holding high the Mexican flag, standing in front of the confrontation line of the National Guard. He became the ""perfect demonstration object"" in the conservative media's mouth-an ""non-my race"" who does not wear an American logo, refuses to reveal his identity, and opposes federal authority. But what he expressed was really political rebellion, or another cry for survival under extreme marginalization?",en,['the National Guard'],POSITIVE,0.777024507522583
+"
+",China,,unknown,[],POSITIVE,0.7481211423873901
+"Los Angeles is one of the cities with the largest Latino population in the United States. According to city government data in 2023, more than 48% of the city's population is Latino, of which about one-third are undocumented or ""semi-legal"". Although many people do not have green cards, they have lived in the city for more than a decade, have families, work, and have children educated in public schools. In terms of ""life facts"", they are part of American society; in terms of ""legal status"", they are always ""undetermined"" waiting to be liquidated.",China,"Los Angeles is one of the cities with the largest Latino population in the United States. According to city government data in 2023, more than 48% of the city's population is Latino, of which about one-third are undocumented or ""semi-legal"". Although many people do not have green cards, they have lived in the city for more than a decade, have families, work, and have children educated in public schools. In terms of ""life facts"", they are part of American society; in terms of ""legal status"", they are always ""undetermined"" waiting to be liquidated.",en,"['the United States', 'Los Angeles']",POSITIVE,0.9962677359580994
+"What to Know About the Immigration Protests in Los Angeles
+",English-Speaking,What to Know About the Immigration Protests in Los Angeles,en,['Los Angeles'],POSITIVE,0.99631267786026
+"
+",English-Speaking,,unknown,[],POSITIVE,0.7481211423873901
+"By Yan ZhuangAnushka PatilRemy Tumin and John Yoon
+",English-Speaking,By Yan ZhuangAnushka PatilRemy Tumin and John Yoon,en,"['Tumin', 'John Yoon']",POSITIVE,0.988010585308075
+"
+",English-Speaking,,unknown,[],POSITIVE,0.7481211423873901
+"Los Angeles braced for more confrontations between law enforcement and protesters against President Trump’s immigration policies, as the administration escalated the federal response to the demonstrations, deploying the Marines and more National Guard troops to California.
+",English-Speaking,"Los Angeles braced for more confrontations between law enforcement and protesters against President Trump’s immigration policies, as the administration escalated the federal response to the demonstrations, deploying the Marines and more National Guard troops to California.",en,"['Los Angeles', 'National Guard', 'California', 'Trump']",NEGATIVE,0.971091091632843
+"
+",English-Speaking,,unknown,[],POSITIVE,0.7481211423873901
+"The protests, which began on Friday, were largely peaceful. They were calmer by Monday though they spread across downtown Los Angeles and its suburbs, and to other cities across the country, in a sign of the widening anger over the aggressive federal deployment.
+",English-Speaking,"The protests, which began on Friday, were largely peaceful. They were calmer by Monday though they spread across downtown Los Angeles and its suburbs, and to other cities across the country, in a sign of the widening anger over the aggressive federal deployment.",en,['Los Angeles'],POSITIVE,0.6692520976066589
+"
+",English-Speaking,,unknown,[],POSITIVE,0.7481211423873901
+"President Trump mobilized the troops in a mission that officials said was meant to protect federal property and agents, doing so over the objections of officials in California and Los Angeles. The weekend of clashes between law enforcement and demonstrators led to about 150 arrests, and the police fired munitions that left protesters and journalists injured.
+",English-Speaking,"President Trump mobilized the troops in a mission that officials said was meant to protect federal property and agents, doing so over the objections of officials in California and Los Angeles. The weekend of clashes between law enforcement and demonstrators led to about 150 arrests, and the police fired munitions that left protesters and journalists injured.",en,"['Los Angeles', 'California', 'Trump']",NEGATIVE,0.9898754954338074
+"
+",English-Speaking,,unknown,[],POSITIVE,0.7481211423873901
+"The state of California on Monday filed suit against the Trump administration over its move to take control of the state’s National Guard and deploy troops to Los Angeles. California Gov. Gavin Newsom also said that he would file a lawsuit to prevent the Marines from being deployed.
+",English-Speaking,The state of California on Monday filed suit against the Trump administration over its move to take control of the state’s National Guard and deploy troops to Los Angeles. California Gov. Gavin Newsom also said that he would file a lawsuit to prevent the Marines from being deployed.,en,"['California', 'Gavin Newsom', 'Los Angeles', 'National Guard', 'Trump']",NEGATIVE,0.9836353063583374
+"
+",English-Speaking,,unknown,[],POSITIVE,0.7481211423873901
+"How did the protests develop?
+",English-Speaking,How did the protests develop?,en,[],NEGATIVE,0.9989206790924072
+"
+",English-Speaking,,unknown,[],POSITIVE,0.7481211423873901
+"Protests broke out on Friday when federal agents searched the city’s garment district for workers whom they suspected of being undocumented immigrants, as part of the Trump administration’s new focus on raiding workplaces.
+",English-Speaking,"Protests broke out on Friday when federal agents searched the city’s garment district for workers whom they suspected of being undocumented immigrants, as part of the Trump administration’s new focus on raiding workplaces.",en,['Trump'],NEGATIVE,0.9869470596313477
+"
+",English-Speaking,,unknown,[],POSITIVE,0.7481211423873901
+"The agents were met by protesters who chanted and threw eggs before being dispersed by law enforcement with pepper spray and nonlethal bullets.
+",English-Speaking,The agents were met by protesters who chanted and threw eggs before being dispersed by law enforcement with pepper spray and nonlethal bullets.,en,[],NEGATIVE,0.9775112867355347
+"
+",English-Speaking,,unknown,[],POSITIVE,0.7481211423873901
+"Demonstrations continued Saturday, both downtown and in the mostly Latino and working-class suburb of Paramount, about 15 miles to the south. Law enforcement officers made arrests and in some cases used crowd-control munitions like tear gas and flash-bang grenades against the protesters.
+",English-Speaking,"Demonstrations continued Saturday, both downtown and in the mostly Latino and working-class suburb of Paramount, about 15 miles to the south. Law enforcement officers made arrests and in some cases used crowd-control munitions like tear gas and flash-bang grenades against the protesters.",en,['Paramount'],NEGATIVE,0.9642611145973206
+"
+",English-Speaking,,unknown,[],POSITIVE,0.7481211423873901
+"People from cities across the United States have held protests in solidarity with those in Los Angeles against the Trump administration’s immigration raids.CreditCredit...Andri Tambunan for The New York Times
+",English-Speaking,People from cities across the United States have held protests in solidarity with those in Los Angeles against the Trump administration’s immigration raids.CreditCredit...Andri Tambunan for The New York Times,en,"['CreditCredit', 'the United States', 'Andri Tambunan', 'The New York Times', 'Los Angeles', 'Trump']",POSITIVE,0.8590885400772095
+"Mr. Trump signed a memo on Saturday ordering 2,000 National Guard members to deploy to Los Angeles to protect federal officers conducting immigration operations, despite the objections of Mr. Newsom and Mayor Karen Bass of Los Angeles.
+",English-Speaking,"Mr. Trump signed a memo on Saturday ordering 2,000 National Guard members to deploy to Los Angeles to protect federal officers conducting immigration operations, despite the objections of Mr. Newsom and Mayor Karen Bass of Los Angeles.",en,"['Karen Bass', 'Newsom', 'Los Angeles', 'National Guard', 'Trump']",NEGATIVE,0.7211287021636963
+"
+",English-Speaking,,unknown,[],POSITIVE,0.7481211423873901
+"On Sunday, nearly 300 members of the California National Guard took positions in the city. Demonstrations on Sunday afternoon near a downtown detention center were largely peaceful, but some protesters shot fireworks at police officers under a bridge on the nearby U.S. 101 freeway. Several driverless Waymo cars were set on fire in downtown Los Angeles.
+",English-Speaking,"On Sunday, nearly 300 members of the California National Guard took positions in the city. Demonstrations on Sunday afternoon near a downtown detention center were largely peaceful, but some protesters shot fireworks at police officers under a bridge on the nearby U.S. 101 freeway. Several driverless Waymo cars were set on fire in downtown Los Angeles.",en,"['U.S.', 'the California National Guard', 'Los Angeles']",NEGATIVE,0.9921108484268188
+"
+",English-Speaking,,unknown,[],POSITIVE,0.7481211423873901
+"The protests were “getting increasingly worse and more violent,” Chief Jim McDonnell of the L.A.P.D. said on Sunday, blaming the violence on “anarchists” and “people who do this all the time,” not people protesting immigration raids.
+",English-Speaking,"The protests were “getting increasingly worse and more violent,” Chief Jim McDonnell of the L.A.P.D. said on Sunday, blaming the violence on “anarchists” and “people who do this all the time,” not people protesting immigration raids.",en,['Jim McDonnell'],NEGATIVE,0.9957017302513123
+"
+",English-Speaking,,unknown,[],POSITIVE,0.7481211423873901
+"Mr. Trump on Monday doubled the number of deployed California Guard troops to 4,000 and mobilized a battalion of 700 Marines to the city. Before their arrival on Monday night, there were about 1,700 soldiers in Los Angeles.
+",English-Speaking,"Mr. Trump on Monday doubled the number of deployed California Guard troops to 4,000 and mobilized a battalion of 700 Marines to the city. Before their arrival on Monday night, there were about 1,700 soldiers in Los Angeles.",en,"['Los Angeles', 'Trump', 'California Guard']",POSITIVE,0.9456645250320435
+"
+",English-Speaking,,unknown,[],POSITIVE,0.7481211423873901
+"Who calls in the National Guard?
+",English-Speaking,Who calls in the National Guard?,en,['the National Guard'],NEGATIVE,0.997704803943634
+"
+",English-Speaking,,unknown,[],POSITIVE,0.7481211423873901
+"The National Guard is the only branch of the military that can be deployed both by state governors and by the president. Governors almost always control deployment in their states.
+",English-Speaking,The National Guard is the only branch of the military that can be deployed both by state governors and by the president. Governors almost always control deployment in their states.,en,['The National Guard'],NEGATIVE,0.7384312152862549
+"
+",English-Speaking,,unknown,[],POSITIVE,0.7481211423873901
+"The Guard operates similarly to the Army’s reserve force. Most of its members do not serve full time. They generally hold civilian jobs and attend regular training sessions, and are called into active service only when needed. The Guard is most often called upon during disasters like hurricanes, floods and wildfires.
+",English-Speaking,"The Guard operates similarly to the Army’s reserve force. Most of its members do not serve full time. They generally hold civilian jobs and attend regular training sessions, and are called into active service only when needed. The Guard is most often called upon during disasters like hurricanes, floods and wildfires.",en,"['Army', 'Guard']",NEGATIVE,0.7814472317695618
+"
+",English-Speaking,,unknown,[],POSITIVE,0.7481211423873901
+"Before Mr. Trump’s move, the last time a president activated a state’s National Guard troops for such a purpose without being asked to do so by the state’s governor was in 1965, according to Elizabeth Goitein, senior director of the Liberty and National Security Program at the Brennan Center for Justice, an independent law and policy organization.
+",English-Speaking,"Before Mr. Trump’s move, the last time a president activated a state’s National Guard troops for such a purpose without being asked to do so by the state’s governor was in 1965, according to Elizabeth Goitein, senior director of the Liberty and National Security Program at the Brennan Center for Justice, an independent law and policy organization.",en,"['National Security Program', 'Liberty', 'Elizabeth Goitein', 'Trump', 'National Guard']",POSITIVE,0.9796297550201416
+"
+",English-Speaking,,unknown,[],POSITIVE,0.7481211423873901
+"On that occasion, she said, President Lyndon B. Johnson used troops to protect civil rights demonstrators in Alabama.
+",English-Speaking,"On that occasion, she said, President Lyndon B. Johnson used troops to protect civil rights demonstrators in Alabama.",en,"['Lyndon B. Johnson', 'Alabama']",NEGATIVE,0.9544603824615479
